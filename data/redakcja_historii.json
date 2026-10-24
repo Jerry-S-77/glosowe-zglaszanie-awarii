@@ -1,0 +1,1785 @@
+[
+  {
+    "nr": 0,
+    "urzadzenie_przed": "centrala wentylacyjna AHU-01",
+    "zmiany": {
+      "objaw": "Centrala nie dochodzi do zadanego wydatku, na panelu przepływ nawiewu jest około 20% poniżej nastawy.",
+      "dzialanie_natychmiastowe": "Sprawdziłem falownik wentylatora nawiewnego, zgłaszał błąd komunikacji ze sterownikiem.",
+      "przyczyna": "Uszkodzony przewód komunikacyjny między sterownikiem a falownikiem, falownik pracował na częstotliwości awaryjnej.",
+      "dzialanie_naprawcze": "Wymieniono przewód komunikacyjny i sprawdzono parametry falownika, przepływ wrócił do nastawy."
+    }
+  },
+  {
+    "nr": 1,
+    "urzadzenie_przed": "nawilżacz parowy NW-02",
+    "zmiany": {
+      "objaw": "Wilgotność w pomieszczeniu czystym spada poniżej dolnej granicy, nawilżacz nie podaje pary.",
+      "kod_alarmu": "F031",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem zasilanie wodą i cylinder, na wyświetlaczu błąd napełniania.",
+      "przyczyna": "Zakamieniony cylinder parowy i zatkane sitko na dopływie wody.",
+      "dzialanie_naprawcze": "Wymieniono cylinder, oczyszczono sitko na dopływie, nawilżacz wrócił do pracy automatycznej."
+    }
+  },
+  {
+    "nr": 2,
+    "urzadzenie_przed": "agregat wody lodowej AW-03",
+    "zmiany": {
+      "objaw": "Agregat pracuje, ale woda lodowa na zasilaniu ma 12 stopni zamiast 6 i dalej rośnie.",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem ciśnienia w obiegu chłodniczym, ssanie wyraźnie za niskie. Przełączyłem odbiory na agregat rezerwowy.",
+      "przyczyna": "Nieszczelność na zaworze serwisowym, ubytek czynnika chłodniczego.",
+      "dzialanie_naprawcze": "Serwis uszczelnił zawór, wykonał próbę szczelności i uzupełnił czynnik."
+    }
+  },
+  {
+    "nr": 3,
+    "urzadzenie_przed": "filtr HEPA FH-05",
+    "zmiany": {
+      "objaw": "Licznik cząstek w monitoringu pokazuje przekroczenia w pomieszczeniu klasy C, pod jednym nawiewnikiem wyraźnie więcej niż pod pozostałymi.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Zgłosiłem do działu jakości, pomieszczenie wyłączono z użycia do wyjaśnienia.",
+      "przyczyna": "Nieszczelność na uszczelce ramy filtra HEPA po ostatniej wymianie.",
+      "dzialanie_naprawcze": "Poprawiono osadzenie filtra, wymieniono uszczelkę, wykonano test integralności i pomiar cząstek."
+    }
+  },
+  {
+    "nr": 4,
+    "urzadzenie_przed": "wentylator V-07",
+    "zmiany": {
+      "urzadzenie": "wentylator wyciągowy V-07",
+      "lokalizacja": "budynek A, poziom 3, pomieszczenie 3.14",
+      "objaw": "Wentylator wyciągowy głośno stuka, jakby coś ocierało o obudowę.",
+      "dzialanie_natychmiastowe": "Zatrzymałem wentylator i obejrzałem wirnik przez rewizję.",
+      "przyczyna": "Poluzowany element osłony ocierał o wirnik.",
+      "dzialanie_naprawcze": "Dokręcono i zabezpieczono osłonę, sprawdzono wirnik i uruchomiono wentylator."
+    }
+  },
+  {
+    "nr": 5,
+    "urzadzenie_przed": "centrala wentylacyjna AHU-06",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 2, pomieszczenie czyste 2.05",
+      "objaw": "W pomieszczeniu jest za zimno, temperatura nawiewu nie reaguje na zmianę nastawy.",
+      "dzialanie_natychmiastowe": "Sprawdziłem na panelu, zawór nagrzewnicy ma sygnał 100%, a nagrzewnica jest zimna.",
+      "przyczyna": "Zakleszczony zawór regulacyjny nagrzewnicy wodnej.",
+      "dzialanie_naprawcze": "Rozruszano i oczyszczono zawór, sprawdzono siłownik, temperatura wróciła do nastawy."
+    }
+  },
+  {
+    "nr": 6,
+    "urzadzenie_przed": "przepustnica P-09",
+    "zmiany": {
+      "lokalizacja": "budynek C, poziom 1, pomieszczenie 1.04",
+      "objaw": "Alarm braku potwierdzenia położenia przepustnicy, przepływ w strefie pływa.",
+      "dzialanie_natychmiastowe": "Sprawdziłem przepustnicę na miejscu, porusza się, ale sygnał zwrotny stoi w miejscu.",
+      "przyczyna": "Uszkodzony potencjometr sygnału zwrotnego w siłowniku.",
+      "dzialanie_naprawcze": "Wymieniono siłownik z sygnałem zwrotnym i ustawiono położenia krańcowe."
+    }
+  },
+  {
+    "nr": 7,
+    "urzadzenie_przed": "nagrzewnica NG-02",
+    "zmiany": {
+      "lokalizacja": "budynek D, poziom 0, pomieszczenie techniczne 0.02",
+      "objaw": "Nagrzewnica elektryczna nie grzeje, temperatura nawiewu spada.",
+      "priorytet": "średni",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem zabezpieczenia, zadziałał termostat bezpieczeństwa.",
+      "przyczyna": "Przepalona jedna sekcja grzałek, po spadku przepływu zadziałało zabezpieczenie termiczne.",
+      "dzialanie_naprawcze": "Wymieniono sekcję grzałek, zresetowano termostat i sprawdzono czujnik przepływu."
+    }
+  },
+  {
+    "nr": 8,
+    "urzadzenie_przed": "wentylator V-10",
+    "zmiany": {
+      "urzadzenie": "wentylator nawiewny V-10",
+      "lokalizacja": "budynek A, poziom 2, warsztat 2.07",
+      "objaw": "Wentylator buczy i ma wyczuwalne drgania, wydatek trochę spadł.",
+      "dzialanie_natychmiastowe": "Osłuchałem łożyska, od strony napędu wyraźny szum. Zostawiłem w pracy do planowego postoju.",
+      "przyczyna": "Zużyte łożysko wentylatora od strony napędu.",
+      "dzialanie_naprawcze": "Na planowym postoju wymieniono łożyska i wyważono wirnik."
+    }
+  },
+  {
+    "nr": 9,
+    "urzadzenie_przed": "system monitorowania temperatury ST-01",
+    "zmiany": {
+      "urzadzenie": "rejestrator temperatury ST-01",
+      "lokalizacja": "budynek B, poziom 1, pomieszczenie kontrolne 1.05",
+      "objaw": "Ekran rejestratora temperatur jest ciemny, nie mam podglądu warunków w pomieszczeniach.",
+      "priorytet": "średni",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem zasilanie, jest. Dane w systemie nadrzędnym zapisują się normalnie.",
+      "przyczyna": "Uszkodzony wyświetlacz rejestratora, sam zapis danych działał.",
+      "dzialanie_naprawcze": "Wymieniono wyświetlacz, potwierdzono ciągłość zapisanych danych."
+    }
+  },
+  {
+    "nr": 10,
+    "urzadzenie_przed": "centrala wentylacyjna AHU-02",
+    "zmiany": {
+      "objaw": "Mało powietrza w pomieszczeniach, alarm wysokiej różnicy ciśnień na filtrze wstępnym.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem filtry, kieszeniowe mocno zabrudzone.",
+      "przyczyna": "Zabrudzone filtry wstępne po pracach budowlanych w sąsiedztwie czerpni.",
+      "dzialanie_naprawcze": "Wymieniono filtry wstępne, skrócono okres wymiany na czas trwania prac."
+    }
+  },
+  {
+    "nr": 11,
+    "urzadzenie_przed": "nawilżacz parowy NW-04",
+    "zmiany": {
+      "objaw": "Nawilżacz przestał podawać parę, wilgotność w pomieszczeniu produkcyjnym spadła poniżej limitu.",
+      "dzialanie_natychmiastowe": "Zrestartowałem nawilżacz, bez efektu. Powiadomiłem kierownika zmiany.",
+      "przyczyna": "Zawór pary nie otwierał się, uszkodzony siłownik.",
+      "dzialanie_naprawcze": "Wymieniono siłownik zaworu pary, sprawdzono regulację w całym zakresie."
+    }
+  },
+  {
+    "nr": 12,
+    "urzadzenie_przed": "wentylator V-12",
+    "zmiany": {
+      "objaw": "Wentylator pracuje nierówno, drgania przenoszą się na konstrukcję i kanały.",
+      "dzialanie_natychmiastowe": "Sprawdziłem mocowanie, poluzowane śruby na ramie i pęknięty wibroizolator.",
+      "przyczyna": "Pęknięty wibroizolator i luz na mocowaniu silnika.",
+      "dzialanie_naprawcze": "Wymieniono wibroizolatory, dokręcono mocowania, wykonano pomiar drgań."
+    }
+  },
+  {
+    "nr": 13,
+    "urzadzenie_przed": "kaskada ciśnień K-01",
+    "zmiany": {
+      "objaw": "Różnica ciśnień między śluzą a pomieszczeniem czystym spada do zera i wraca, co chwilę alarm.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Zmierzyłem różnicę ciśnień ręcznym manometrem, jest stabilna i poprawna.",
+      "przyczyna": "Uszkodzony przetwornik różnicy ciśnień, błędne wskazania.",
+      "dzialanie_naprawcze": "Wymieniono i skalibrowano przetwornik, porównano ze wzorcem."
+    }
+  },
+  {
+    "nr": 14,
+    "urzadzenie_przed": "filtr HEPA FH-06",
+    "zmiany": {
+      "objaw": "Przekroczenie liczby cząstek w strefie klasy A podczas pracy, alarm z monitoringu.",
+      "dzialanie_natychmiastowe": "Wstrzymano pracę w strefie i powiadomiono dział jakości.",
+      "przyczyna": "Uszkodzone medium filtra HEPA, mechaniczne przebicie przy czyszczeniu sufitu.",
+      "dzialanie_naprawcze": "Wymieniono filtr, wykonano test integralności i ponowną kwalifikację strefy."
+    }
+  },
+  {
+    "nr": 15,
+    "urzadzenie_przed": "agregat wody lodowej AW-01",
+    "zmiany": {
+      "objaw": "Agregat wyłączył się na zabezpieczeniu, temperatura w pomieszczeniach procesowych rośnie.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem ciśnienia, sprężarka nie startuje. Uruchomiłem agregat rezerwowy.",
+      "przyczyna": "Uszkodzona sprężarka pierwszego obiegu.",
+      "dzialanie_naprawcze": "Serwis wymienił sprężarkę i uruchomił obieg."
+    }
+  },
+  {
+    "nr": 16,
+    "urzadzenie_przed": "wentylator V-15",
+    "zmiany": {
+      "urzadzenie": "wentylator nawiewny V-15",
+      "objaw": "Wentylator nawiewny stanął, w pomieszczeniu czystym brak nawiewu i spada nadciśnienie.",
+      "dzialanie_natychmiastowe": "Próbowałem załączyć ponownie, falownik od razu wyłącza. Wstrzymano pracę w pomieszczeniu.",
+      "przyczyna": "Zwarcie w uzwojeniu silnika wentylatora.",
+      "dzialanie_naprawcze": "Wymieniono silnik, sprawdzono falownik, przywrócono ciśnienia i wykonano pomiar cząstek."
+    }
+  },
+  {
+    "nr": 17,
+    "urzadzenie_przed": "nawilżacz parowy NW-05",
+    "zmiany": {
+      "objaw": "Wilgotność spada, nawilżacz co chwilę zgłasza brak wody.",
+      "dzialanie_natychmiastowe": "Sprawdziłem dopływ, woda ledwo cieknie.",
+      "przyczyna": "Załamany i częściowo zarośnięty kamieniem wąż doprowadzający wodę.",
+      "dzialanie_naprawcze": "Wymieniono wąż i zawór napełniania."
+    }
+  },
+  {
+    "nr": 18,
+    "urzadzenie_przed": "centrala wentylacyjna AHU-03",
+    "zmiany": {
+      "objaw": "W pomieszczeniach socjalnych temperatura skacze, raz za ciepło, raz za zimno.",
+      "priorytet": "niski",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Porównałem wskazanie czujnika z termometrem ręcznym, różnica kilku stopni.",
+      "przyczyna": "Uszkodzony czujnik temperatury nawiewu.",
+      "dzialanie_naprawcze": "Wymieniono czujnik, regulacja się ustabilizowała."
+    }
+  },
+  {
+    "nr": 19,
+    "urzadzenie_przed": "przepustnica P-08",
+    "zmiany": {
+      "objaw": "Przepustnica na nawiewie nie otwiera się, w pomieszczeniu słaba wymiana powietrza.",
+      "priorytet": "średni",
+      "dzialanie_natychmiastowe": "Sprawdziłem siłownik, ma sygnał, ale się nie rusza.",
+      "przyczyna": "Spalony siłownik przepustnicy.",
+      "dzialanie_naprawcze": "Wymieniono siłownik i sprawdzono pełny zakres ruchu."
+    }
+  },
+  {
+    "nr": 20,
+    "urzadzenie_przed": "centrala wentylacyjna AHU-05",
+    "zmiany": {
+      "objaw": "W pomieszczeniu czuć zapach rozpuszczalnika, którego wcześniej nie było.",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem centralę, przepustnica recyrkulacji otwarta mimo trybu pełnego powietrza świeżego.",
+      "przyczyna": "Zacięta przepustnica recyrkulacji zawracała powietrze z wyciągu.",
+      "dzialanie_naprawcze": "Naprawiono napęd przepustnicy, sprawdzono tryby pracy centrali."
+    }
+  },
+  {
+    "nr": 21,
+    "urzadzenie_przed": "agregat wody lodowej AW-04",
+    "zmiany": {
+      "objaw": "Agregat hałasuje, temperatura wody lodowej dla serwerowni rośnie.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Zatrzymałem agregat, w serwerowni załączyłem klimatyzator rezerwowy.",
+      "przyczyna": "Zatarte łożysko pompy obiegowej wody lodowej.",
+      "dzialanie_naprawcze": "Wymieniono pompę, odpowietrzono układ."
+    }
+  },
+  {
+    "nr": 22,
+    "urzadzenie_przed": "nawilżacz parowy NW-03",
+    "zmiany": {
+      "objaw": "Nawilżacz nie podaje pary, wilgotność w pomieszczeniu czystym poniżej limitu, alarm z monitoringu.",
+      "priorytet": "wysoki",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem zasilanie, nawilżacz nie reaguje na sygnał sterujący.",
+      "przyczyna": "Zatarty zawór regulacyjny pary.",
+      "dzialanie_naprawcze": "Wymieniono zawór regulacyjny, sprawdzono sygnał ze sterownika."
+    }
+  },
+  {
+    "nr": 23,
+    "urzadzenie_przed": "wentylator V-09",
+    "zmiany": {
+      "urzadzenie": "wentylator wyciągowy V-09",
+      "objaw": "Wentylator wyciągu procesowego stanął, w pomieszczeniu produkcyjnym robi się gorąco i duszno.",
+      "wplyw_na_bezpieczenstwo": "możliwy",
+      "dzialanie_natychmiastowe": "Wstrzymano proces, sprawdziłem zabezpieczenie silnika, wybite.",
+      "przyczyna": "Zablokowany wirnik i przeciążenie silnika.",
+      "dzialanie_naprawcze": "Wymieniono silnik, oczyszczono wirnik, ustawiono zabezpieczenie."
+    }
+  },
+  {
+    "nr": 24,
+    "urzadzenie_przed": "przepustnica P-07",
+    "zmiany": {
+      "objaw": "Przepustnica nie domyka się, w śluzie czuć przeciąg i ciśnienie jest niestabilne.",
+      "dzialanie_natychmiastowe": "Próbowałem domknąć ze sterowania ręcznego, zostaje szczelina.",
+      "przyczyna": "Poluzowane cięgno między siłownikiem a osią przepustnicy.",
+      "dzialanie_naprawcze": "Wyregulowano i zabezpieczono cięgno, sprawdzono domknięcie."
+    }
+  },
+  {
+    "nr": 25,
+    "urzadzenie_przed": "filtr wstępny FW-04",
+    "zmiany": {
+      "lokalizacja": "budynek A, poziom 1, pomieszczenie techniczne 1.07",
+      "objaw": "W pomieszczeniu technicznym czuć spaleniznę, z centrali leci mniej powietrza.",
+      "wplyw_na_bezpieczenstwo": "możliwy",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Zatrzymałem centralę i odciąłem zasilanie nagrzewnicy.",
+      "przyczyna": "Zapchany filtr wstępny ograniczył przepływ, nagrzewnica elektryczna się przegrzała.",
+      "dzialanie_naprawcze": "Wymieniono filtr i przegrzane grzałki, sprawdzono blokadę nagrzewnicy od przepływu."
+    }
+  },
+  {
+    "nr": 26,
+    "urzadzenie_przed": "nawilżacz parowy NW-01",
+    "zmiany": {
+      "objaw": "Z lancy leci woda zamiast pary, w kanale za nawilżaczem jest mokro.",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Zamknąłem zawór pary i sprawdziłem odwadniacz.",
+      "przyczyna": "Zablokowany odwadniacz kondensatu na dolocie pary.",
+      "dzialanie_naprawcze": "Wymieniono odwadniacz, osuszono kanał."
+    }
+  },
+  {
+    "nr": 27,
+    "urzadzenie_przed": "wentylator V-08",
+    "zmiany": {
+      "objaw": "W sali konferencyjnej nie działa wentylacja, jest duszno.",
+      "priorytet": "niski",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem rozdzielnicę, wybity wyłącznik wentylatora.",
+      "przyczyna": "Uszkodzony przewód zasilający wentylator.",
+      "dzialanie_naprawcze": "Wymieniono przewód, sprawdzono zabezpieczenie."
+    }
+  },
+  {
+    "nr": 28,
+    "urzadzenie_przed": "kaskada ciśnień K-02",
+    "zmiany": {
+      "objaw": "Ciśnienie w pomieszczeniu klasy B spadło poniżej ciśnienia korytarza, kierunek przepływu się odwrócił.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Wstrzymano pracę w strefie i powiadomiono dział jakości.",
+      "przyczyna": "Błędna nastawa regulatora ciśnienia po wgraniu nowej wersji programu.",
+      "dzialanie_naprawcze": "Przywrócono poprawne nastawy, sprawdzono całą kaskadę i udokumentowano zmianę."
+    }
+  },
+  {
+    "nr": 29,
+    "urzadzenie_przed": "nagrzewnica NG-03",
+    "zmiany": {
+      "lokalizacja": "budynek A, poziom 2, szatnia 2.01",
+      "objaw": "W szatni jest zimno, nagrzewnica nie grzeje.",
+      "priorytet": "niski",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem nastawę, jest poprawna.",
+      "przyczyna": "Zabrudzony i źle umieszczony czujnik temperatury.",
+      "dzialanie_naprawcze": "Oczyszczono i przeniesiono czujnik, sprawdzono działanie."
+    }
+  },
+  {
+    "nr": 30,
+    "urzadzenie_przed": "centrala wentylacyjna AHU-07",
+    "zmiany": {
+      "objaw": "Centrala nie osiąga wymaganego przepływu, zmiana nastawy na panelu nic nie daje.",
+      "dzialanie_natychmiastowe": "Obejrzałem sekcję wentylatora, pasek napędowy się ślizga.",
+      "przyczyna": "Zużyty i poluzowany pasek napędu wentylatora.",
+      "dzialanie_naprawcze": "Wymieniono pasek, ustawiono naciąg."
+    }
+  },
+  {
+    "nr": 31,
+    "urzadzenie_przed": "nagrzewnica NG-04",
+    "zmiany": {
+      "objaw": "Nagrzewnica nie reaguje na sterowanie, w laboratorium temperatura poniżej wymaganej.",
+      "priorytet": "średni",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem sygnał ze sterownika, jest, ale stycznik nie załącza.",
+      "przyczyna": "Uszkodzony stycznik nagrzewnicy.",
+      "dzialanie_naprawcze": "Wymieniono stycznik, sprawdzono grzanie na wszystkich stopniach."
+    }
+  },
+  {
+    "nr": 32,
+    "urzadzenie_przed": "agregat wody lodowej AW-05",
+    "zmiany": {
+      "objaw": "Agregat stanął, temperatura w pomieszczeniu procesowym szybko rośnie, a rezerwy nie ma.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Zatrzymałem agregat i wezwałem serwis. Proces wstrzymano.",
+      "przyczyna": "Awaria sprężarki, zadziałało zabezpieczenie wysokiego ciśnienia.",
+      "dzialanie_naprawcze": "Wymieniono sprężarkę i presostat, uruchomiono agregat."
+    }
+  },
+  {
+    "nr": 33,
+    "urzadzenie_przed": "wentylator V-06",
+    "zmiany": {
+      "objaw": "Wentylator wyje i traci wydatek, ciśnienie w pomieszczeniu spada.",
+      "dzialanie_natychmiastowe": "Zatrzymałem wentylator, łożysko jest gorące.",
+      "przyczyna": "Zatarte łożysko z powodu braku smarowania.",
+      "dzialanie_naprawcze": "Wymieniono łożysko, dodano smarowanie do planu przeglądów."
+    }
+  },
+  {
+    "nr": 34,
+    "urzadzenie_przed": "filtr HEPA FH-07",
+    "zmiany": {
+      "objaw": "Po otwarciu drzwi pomieszczenie wraca do czystości dużo dłużej niż zwykle, liczniki długo pokazują podwyższone cząstki.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem różnicę ciśnień na filtrze, jest przy górnej granicy.",
+      "przyczyna": "Filtr HEPA po terminie wymiany, zbyt duży opór i mniejszy nawiew.",
+      "dzialanie_naprawcze": "Wymieniono filtr, wykonano test integralności i pomiar krotności wymian."
+    }
+  },
+  {
+    "nr": 35,
+    "urzadzenie_przed": "przepustnica P-10",
+    "zmiany": {
+      "objaw": "Przepustnica nie otwiera się, w pomieszczeniu brak wymiany powietrza.",
+      "dzialanie_natychmiastowe": "Sprawdziłem sterowanie ręczne, siłownik się nie rusza.",
+      "przyczyna": "Uszkodzony napęd przepustnicy.",
+      "dzialanie_naprawcze": "Wymieniono napęd, sprawdzono działanie."
+    }
+  },
+  {
+    "nr": 36,
+    "urzadzenie_przed": "centrala wentylacyjna AHU-08",
+    "zmiany": {
+      "objaw": "Powietrze w pomieszczeniu jest za suche, nawilżacz stoi, choć wilgotność jest niska.",
+      "dzialanie_natychmiastowe": "Na panelu czujnik pokazuje 60%, ręczny miernik pokazuje 32%.",
+      "przyczyna": "Uszkodzony czujnik wilgotności w kanale.",
+      "dzialanie_naprawcze": "Wymieniono i skalibrowano czujnik."
+    }
+  },
+  {
+    "nr": 37,
+    "urzadzenie_przed": "filtr wstępny FW-05",
+    "zmiany": {
+      "objaw": "Alarm zabrudzenia filtra wstępnego na panelu centrali.",
+      "priorytet": "niski",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem filtr, mocno zabrudzony.",
+      "przyczyna": "Filtr zużyty eksploatacyjnie.",
+      "dzialanie_naprawcze": "Wymieniono filtr wstępny."
+    }
+  },
+  {
+    "nr": 38,
+    "urzadzenie_przed": "wentylator V-02",
+    "zmiany": {
+      "objaw": "W biurze przestała działać wentylacja, robi się gorąco.",
+      "priorytet": "niski",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem zasilanie, brak napięcia na zaciskach wentylatora.",
+      "przyczyna": "Przetarty przewód zasilający.",
+      "dzialanie_naprawcze": "Naprawiono przewód i jego mocowanie."
+    }
+  },
+  {
+    "nr": 39,
+    "urzadzenie_przed": "centrala wentylacyjna AHU-09",
+    "zmiany": {
+      "objaw": "Centrala przeszła w tryb awaryjny, alarm niskiego ciśnienia w kanale nawiewnym.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Zatrzymałem centralę i sprawdziłem kanał, przepływ wygląda normalnie.",
+      "przyczyna": "Uszkodzony czujnik ciśnienia w kanale, fałszywy sygnał.",
+      "dzialanie_naprawcze": "Wymieniono czujnik, wykonano próby centrali."
+    }
+  },
+  {
+    "nr": 40,
+    "urzadzenie_przed": "stacja uzdatniania nr 1",
+    "zmiany": {
+      "objaw": "Spada wydajność stacji, zbiornik magazynowy napełnia się coraz wolniej.",
+      "kod_alarmu": "A118",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem ciśnienia przed i za filtrami wstępnymi, duży spadek.",
+      "przyczyna": "Zapchane filtry wstępne przed odwróconą osmozą.",
+      "dzialanie_naprawcze": "Wymieniono wkłady filtrów, sprawdzono wydajność."
+    }
+  },
+  {
+    "nr": 41,
+    "urzadzenie_przed": "zbiornik magazynowy nr 2",
+    "zmiany": {
+      "objaw": "Pod zbiornikiem jest kałuża wody, kapie z dolnego króćca.",
+      "kod_alarmu": "F033",
+      "priorytet": "wysoki",
+      "wplyw_na_bezpieczenstwo": "możliwy",
+      "dzialanie_natychmiastowe": "Zebrałem wodę, odgrodziłem miejsce i obniżyłem poziom w zbiorniku.",
+      "przyczyna": "Uszkodzona uszczelka na dolnym króćcu spustowym.",
+      "dzialanie_naprawcze": "Wymieniono uszczelkę, wykonano próbę szczelności i sanityzację."
+    }
+  },
+  {
+    "nr": 42,
+    "urzadzenie_przed": "lampa UV nr 3",
+    "zmiany": {
+      "objaw": "Alarm niskiego natężenia UV na lampie w pętli.",
+      "dzialanie_natychmiastowe": "Sprawdziłem licznik godzin, promiennik po resursie.",
+      "przyczyna": "Zużyty promiennik UV.",
+      "dzialanie_naprawcze": "Wymieniono promiennik, skasowano licznik godzin."
+    }
+  },
+  {
+    "nr": 43,
+    "urzadzenie_przed": "pompa obiegowa nr 4",
+    "zmiany": {
+      "objaw": "Pompa obiegowa pętli hałasuje i ciśnienie na tłoczeniu jest niższe niż zwykle.",
+      "dzialanie_natychmiastowe": "Sprawdziłem ssanie, poziom w zbiorniku jest niski.",
+      "przyczyna": "Kawitacja przy zbyt niskim poziomie w zbiorniku.",
+      "dzialanie_naprawcze": "Podniesiono próg minimalnego poziomu, sprawdzono uszczelnienie mechaniczne pompy."
+    }
+  },
+  {
+    "nr": 44,
+    "urzadzenie_przed": "zawór membranowy nr 5",
+    "zmiany": {
+      "objaw": "Zawór w punkcie poboru nie domyka się, cały czas kapie.",
+      "priorytet": "średni",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Zamknąłem zawór odcinający przed punktem poboru.",
+      "przyczyna": "Zużyta membrana zaworu.",
+      "dzialanie_naprawcze": "Wymieniono membranę, sprawdzono szczelność."
+    }
+  },
+  {
+    "nr": 45,
+    "urzadzenie_przed": "wymiennik ciepła nr 1",
+    "zmiany": {
+      "objaw": "Podczas sanityzacji pętla nie dochodzi do 80 stopni, cykl się nie zalicza.",
+      "wplyw_na_gmp": "tak",
+      "dzialanie_natychmiastowe": "Sprawdziłem parę grzewczą, ciśnienie w normie.",
+      "przyczyna": "Zakamieniony wymiennik po stronie pary.",
+      "dzialanie_naprawcze": "Wyczyszczono wymiennik, powtórzono sanityzację."
+    }
+  },
+  {
+    "nr": 46,
+    "urzadzenie_przed": "pętla dystrybucyjna nr 2",
+    "zmiany": {
+      "objaw": "Przepływ na powrocie pętli skacze, pompa co chwilę zmienia obroty.",
+      "dzialanie_natychmiastowe": "Sprawdziłem nastawy regulatora, bez zmian.",
+      "przyczyna": "Uszkodzony przetwornik ciśnienia na powrocie.",
+      "dzialanie_naprawcze": "Wymieniono i skalibrowano przetwornik."
+    }
+  },
+  {
+    "nr": 47,
+    "urzadzenie_przed": "ozonator nr 1",
+    "zmiany": {
+      "objaw": "Ozonator nie wytwarza ozonu, stężenie w zbiorniku spadło do zera.",
+      "kod_alarmu": "AL-33",
+      "priorytet": "wysoki",
+      "wplyw_na_bezpieczenstwo": "możliwy",
+      "dzialanie_natychmiastowe": "Zatrzymałem ozonowanie, zgłosiłem do działu jakości.",
+      "przyczyna": "Uszkodzona cela generatora ozonu.",
+      "dzialanie_naprawcze": "Wymieniono celę, sprawdzono stężenie i detektor ozonu w pomieszczeniu."
+    }
+  },
+  {
+    "nr": 48,
+    "urzadzenie_przed": "sanityzator termiczny nr 2",
+    "zmiany": {
+      "objaw": "Sanityzacja przerwana, temperatura nie rośnie powyżej 60 stopni.",
+      "dzialanie_natychmiastowe": "Sprawdziłem grzałki, jedna sekcja jest zimna.",
+      "przyczyna": "Przepalona sekcja grzałek.",
+      "dzialanie_naprawcze": "Wymieniono grzałki, powtórzono sanityzację."
+    }
+  },
+  {
+    "nr": 49,
+    "urzadzenie_przed": "czujnik TOC nr 1",
+    "zmiany": {
+      "urzadzenie": "analizator TOC nr 1",
+      "objaw": "Analizator TOC pokazuje skoki ponad limit, choć przewodność jest stabilna.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Pobrano próbkę do laboratorium, wynik w normie.",
+      "przyczyna": "Zużyta lampa UV w analizatorze.",
+      "dzialanie_naprawcze": "Wymieniono lampę i skalibrowano analizator."
+    }
+  },
+  {
+    "nr": 50,
+    "urzadzenie_przed": "stacja uzdatniania nr 2",
+    "zmiany": {
+      "objaw": "Przepływ permeatu znacznie poniżej normy, stacja pracuje dłużej niż zwykle.",
+      "dzialanie_natychmiastowe": "Sprawdziłem ciśnienia na membranach, różnica wyraźnie wzrosła.",
+      "przyczyna": "Zanieczyszczone membrany odwróconej osmozy.",
+      "dzialanie_naprawcze": "Wykonano chemiczne mycie membran, wydajność wróciła."
+    }
+  },
+  {
+    "nr": 51,
+    "urzadzenie_przed": "zbiornik magazynowy nr 3",
+    "zmiany": {
+      "objaw": "Poziom w zbiorniku opada szybciej, niż wynika z poboru.",
+      "dzialanie_natychmiastowe": "Sprawdziłem zawory spustowe i przelew, z przelewu cieknie.",
+      "przyczyna": "Nieszczelny zawór na przelewie zbiornika.",
+      "dzialanie_naprawcze": "Wymieniono zawór, wykonano sanityzację zbiornika."
+    }
+  },
+  {
+    "nr": 52,
+    "urzadzenie_przed": "pompa obiegowa nr 1",
+    "zmiany": {
+      "objaw": "Pompa się kręci, ale w pętli nie ma przepływu, a temperatura wody rośnie.",
+      "kod_alarmu": "F037",
+      "priorytet": "wysoki",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "tak",
+      "dzialanie_natychmiastowe": "Sprawdziłem zasilanie i zawory, zawór na tłoczeniu jest zamknięty.",
+      "przyczyna": "Zawór automatyczny na tłoczeniu nie otworzył się, uszkodzony elektrozawór sterujący.",
+      "dzialanie_naprawcze": "Wymieniono elektrozawór, sprawdzono sekwencję startu pompy."
+    }
+  },
+  {
+    "nr": 53,
+    "urzadzenie_przed": "lampy UV nr 2",
+    "zmiany": {
+      "urzadzenie": "lampa UV nr 2",
+      "objaw": "Lampa UV nie świeci, alarm na panelu.",
+      "priorytet": "średni",
+      "dzialanie_natychmiastowe": "Sprawdziłem zasilanie, statecznik nie podaje napięcia.",
+      "przyczyna": "Uszkodzony statecznik lampy UV.",
+      "dzialanie_naprawcze": "Wymieniono statecznik, sprawdzono natężenie."
+    }
+  },
+  {
+    "nr": 54,
+    "urzadzenie_przed": "ozonator nr 2",
+    "zmiany": {
+      "objaw": "Ozonator pracuje, ale pomiar ozonu w zbiorniku pokazuje zero.",
+      "priorytet": "wysoki",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem dopływ tlenu i zasilanie.",
+      "przyczyna": "Uszkodzona płyta sterująca ozonatora.",
+      "dzialanie_naprawcze": "Wymieniono płytę, sprawdzono stężenie."
+    }
+  },
+  {
+    "nr": 55,
+    "urzadzenie_przed": "stacja uzdatniania nr 3",
+    "zmiany": {
+      "objaw": "Przewodność za stacją rośnie i zbliża się do limitu alarmowego.",
+      "priorytet": "wysoki",
+      "wplyw_na_gmp": "tak",
+      "dzialanie_natychmiastowe": "Sprawdziłem odczyty po kolei, za modułem EDI przewodność jest wysoka.",
+      "przyczyna": "Spadek sprawności modułu EDI.",
+      "dzialanie_naprawcze": "Zregenerowano moduł EDI, przewodność wróciła do normy."
+    }
+  },
+  {
+    "nr": 56,
+    "urzadzenie_przed": "pętla dystrybucyjna nr 1",
+    "zmiany": {
+      "objaw": "W najdalszych punktach poboru ciśnienie jest za niskie, woda leci słabo.",
+      "dzialanie_natychmiastowe": "Sprawdziłem ciśnienie na powrocie, poniżej nastawy.",
+      "przyczyna": "Źle ustawiony zawór regulacyjny na powrocie pętli.",
+      "dzialanie_naprawcze": "Wyregulowano zawór, sprawdzono prędkość przepływu w pętli."
+    }
+  },
+  {
+    "nr": 57,
+    "urzadzenie_przed": "wymiennik ciepła nr 2",
+    "zmiany": {
+      "objaw": "Po sanityzacji woda w pętli schładza się dużo wolniej niż zwykle.",
+      "priorytet": "średni",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem dopływ wody chłodzącej, przepływ jest mały.",
+      "przyczyna": "Zabrudzony wymiennik po stronie wody chłodzącej.",
+      "dzialanie_naprawcze": "Wyczyszczono wymiennik, sprawdzono czasy schładzania."
+    }
+  },
+  {
+    "nr": 58,
+    "urzadzenie_przed": "czujnik temperatury w pętli",
+    "zmiany": {
+      "objaw": "Czujnik temperatury na powrocie pokazuje stale 25,0 stopni, niezależnie od sytuacji.",
+      "wplyw_na_gmp": "tak",
+      "dzialanie_natychmiastowe": "Zresetowałem przetwornik, bez zmian.",
+      "przyczyna": "Uszkodzony czujnik temperatury.",
+      "dzialanie_naprawcze": "Wymieniono i skalibrowano czujnik."
+    }
+  },
+  {
+    "nr": 59,
+    "urzadzenie_przed": "stacja uzdatniania nr 4",
+    "zmiany": {
+      "objaw": "Na panelu stacji błąd E002, stacja nie produkuje wody.",
+      "dzialanie_natychmiastowe": "Sprawdziłem połączenia i zrestartowałem sterowanie, błąd wraca.",
+      "przyczyna": "Uszkodzony moduł wejść analogowych sterownika stacji.",
+      "dzialanie_naprawcze": "Wymieniono moduł, sprawdzono wszystkie pomiary."
+    }
+  },
+  {
+    "nr": 60,
+    "urzadzenie_przed": "zbiornik magazynowy nr 4",
+    "zmiany": {
+      "objaw": "Alarm niskiego poziomu w zbiorniku, a pompa pętli hałasuje.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem poziom na wzierniku, faktycznie niski.",
+      "przyczyna": "Zawieszony zawór napełniania zbiornika.",
+      "dzialanie_naprawcze": "Wymieniono zawór napełniania."
+    }
+  },
+  {
+    "nr": 61,
+    "urzadzenie_przed": "pętla dystrybucyjna nr 3",
+    "zmiany": {
+      "objaw": "Przepływomierz na pętli pokazuje niestabilne wartości.",
+      "dzialanie_natychmiastowe": "Sprawdziłem zawory na pętli, wszystkie w poprawnym położeniu.",
+      "przyczyna": "Zapowietrzony przepływomierz po pracach serwisowych.",
+      "dzialanie_naprawcze": "Odpowietrzono odcinek pomiarowy, sprawdzono wskazania."
+    }
+  },
+  {
+    "nr": 62,
+    "urzadzenie_przed": "pompa obiegowa nr 5",
+    "zmiany": {
+      "objaw": "Pompa nie startuje, w pętli brak cyrkulacji.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "tak",
+      "dzialanie_natychmiastowe": "Próbowałem uruchomić ręcznie, falownik zgłasza błąd silnika. Załączyłem pompę rezerwową.",
+      "przyczyna": "Uszkodzone uzwojenie silnika pompy.",
+      "dzialanie_naprawcze": "Wymieniono silnik, sprawdzono osiowanie."
+    }
+  },
+  {
+    "nr": 63,
+    "urzadzenie_przed": "lampy UV nr 1",
+    "zmiany": {
+      "urzadzenie": "lampa UV nr 1",
+      "objaw": "Lampa UV zgasła w trakcie pracy.",
+      "kod_alarmu": "F009",
+      "priorytet": "średni",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem zasilanie i połączenia, bez efektu.",
+      "przyczyna": "Pęknięta osłona kwarcowa i zalany promiennik.",
+      "dzialanie_naprawcze": "Wymieniono osłonę i promiennik, wykonano sanityzację odcinka."
+    }
+  },
+  {
+    "nr": 64,
+    "urzadzenie_przed": "ozonator nr 3",
+    "zmiany": {
+      "objaw": "Ozonator pracuje, ale stężenie ozonu rośnie bardzo wolno.",
+      "dzialanie_natychmiastowe": "Sprawdziłem osprzęt, przepływ gazu zasilającego jest niski.",
+      "przyczyna": "Zapchany filtr gazu zasilającego.",
+      "dzialanie_naprawcze": "Wymieniono filtr, sprawdzono wydajność."
+    }
+  },
+  {
+    "nr": 65,
+    "urzadzenie_przed": "sanityzator termiczny nr 1",
+    "zmiany": {
+      "objaw": "Sanityzacja trwa za długo, temperatura rośnie i zatrzymuje się przed nastawą.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem grzałki, są sprawne.",
+      "przyczyna": "Uszkodzony regulator temperatury.",
+      "dzialanie_naprawcze": "Wymieniono regulator, powtórzono cykl."
+    }
+  },
+  {
+    "nr": 66,
+    "urzadzenie_przed": "czujnik przewodności nr 2",
+    "zmiany": {
+      "objaw": "Czujnik przewodności pokazuje wartości trzy razy wyższe niż czujnik sąsiedni.",
+      "priorytet": "wysoki",
+      "dzialanie_natychmiastowe": "Próbowałem kalibracji, czujnik nie reaguje.",
+      "przyczyna": "Uszkodzona cela pomiarowa.",
+      "dzialanie_naprawcze": "Wymieniono celę, skalibrowano i porównano z pomiarem laboratoryjnym."
+    }
+  },
+  {
+    "nr": 67,
+    "urzadzenie_przed": "zawór membranowy nr 3",
+    "zmiany": {
+      "objaw": "Zawór membranowy nie domyka się, słychać ciągły szum przepływu.",
+      "priorytet": "średni",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Próbowałem domknąć ręcznie, bez skutku.",
+      "przyczyna": "Pęknięta membrana.",
+      "dzialanie_naprawcze": "Wymieniono membranę, wykonano próbę szczelności."
+    }
+  },
+  {
+    "nr": 68,
+    "urzadzenie_przed": "stacja uzdatniania nr 5",
+    "zmiany": {
+      "objaw": "Na panelu błąd E045, stacja stanęła.",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem zasilanie i filtry, bez zmian.",
+      "przyczyna": "Uszkodzony zasilacz modułu sterującego.",
+      "dzialanie_naprawcze": "Wymieniono zasilacz, uruchomiono stację."
+    }
+  },
+  {
+    "nr": 69,
+    "urzadzenie_przed": "zbiornik magazynowy nr 5",
+    "zmiany": {
+      "objaw": "Wynik mikrobiologii z próbki ze zbiornika jest powyżej limitu działania.",
+      "priorytet": "krytyczny",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Wstrzymano pobór wody i powiadomiono dział jakości.",
+      "przyczyna": "Zabrudzony filtr oddechowy zbiornika po terminie wymiany.",
+      "dzialanie_naprawcze": "Wymieniono filtr oddechowy, wykonano sanityzację zbiornika i pętli, pobrano próbki kontrolne."
+    }
+  },
+  {
+    "nr": 70,
+    "urzadzenie_przed": "izolator HPAPI-01",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 1, pomieszczenie produkcyjne 1.14",
+      "objaw": "Test szczelności rękawic nie przeszedł na lewym porcie.",
+      "kod_alarmu": "AL-21",
+      "wplyw_na_bezpieczenstwo": "tak",
+      "dzialanie_natychmiastowe": "Wstrzymano pracę, port zabezpieczono zaślepką.",
+      "przyczyna": "Mikropęknięcie rękawicy używanej dłużej niż dopuszczalny okres.",
+      "dzialanie_naprawcze": "Wymieniono rękawicę metodą bezpiecznej wymiany, powtórzono test."
+    }
+  },
+  {
+    "nr": 71,
+    "urzadzenie_przed": "izolator HPAPI-02",
+    "zmiany": {
+      "lokalizacja": "budynek A, poziom 2, pomieszczenie produkcyjne 2.03",
+      "objaw": "Podciśnienie w komorze spada i jest przy samej granicy alarmu.",
+      "kod_alarmu": "F036",
+      "priorytet": "wysoki",
+      "wplyw_na_bezpieczenstwo": "tak",
+      "wplyw_na_gmp": "tak",
+      "dzialanie_natychmiastowe": "Sprawdziłem wyciąg i filtry, różnica ciśnień na filtrze jest wysoka.",
+      "przyczyna": "Obciążony pyłem filtr wyciągowy HEPA.",
+      "dzialanie_naprawcze": "Wymieniono filtr metodą push-push, sprawdzono podciśnienie."
+    }
+  },
+  {
+    "nr": 72,
+    "urzadzenie_przed": "izolator HPAPI-03",
+    "zmiany": {
+      "lokalizacja": "budynek C, poziom 1, pomieszczenie produkcyjne 1.07",
+      "objaw": "System mycia WIP nie podaje wody na dysze.",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Odciąłem wodę i sprawdziłem zawory.",
+      "przyczyna": "Zapchane dysze i filtr siatkowy na dopływie.",
+      "dzialanie_naprawcze": "Wyczyszczono dysze i filtr, sprawdzono pokrycie myciem."
+    }
+  },
+  {
+    "nr": 73,
+    "urzadzenie_przed": "izolator HPAPI-04",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 3, pomieszczenie produkcyjne 3.02",
+      "objaw": "Blokada drzwi śluzy nie trzyma, oboje drzwi dają się otworzyć jednocześnie.",
+      "priorytet": "wysoki",
+      "wplyw_na_bezpieczenstwo": "tak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Wstrzymano pracę i oznaczono izolator jako wyłączony.",
+      "przyczyna": "Uszkodzony rygiel elektromagnetyczny blokady.",
+      "dzialanie_naprawcze": "Wymieniono rygiel, sprawdzono logikę blokad."
+    }
+  },
+  {
+    "nr": 74,
+    "urzadzenie_przed": "izolator HPAPI-05",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 2, pomieszczenie produkcyjne 2.12",
+      "objaw": "Worek bezpiecznej wymiany na porcie odpadów ma przetarcie.",
+      "priorytet": "wysoki",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Wstrzymano pracę, port zabezpieczono drugim workiem.",
+      "przyczyna": "Worek przetarł się o ostrą krawędź kołnierza.",
+      "dzialanie_naprawcze": "Wymieniono worek, wygładzono krawędź, sprawdzono pozostałe porty."
+    }
+  },
+  {
+    "nr": 75,
+    "urzadzenie_przed": "izolator HPAPI-06",
+    "zmiany": {
+      "lokalizacja": "budynek A, poziom 1, pomieszczenie produkcyjne 1.04",
+      "objaw": "Wskazanie podciśnienia skacze, alarm pojawia się i znika.",
+      "kod_alarmu": "A121",
+      "priorytet": "średni",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Porównałem z manometrem kontrolnym, podciśnienie jest stabilne.",
+      "przyczyna": "Uszkodzony przetwornik ciśnienia w komorze.",
+      "dzialanie_naprawcze": "Wymieniono i skalibrowano przetwornik."
+    }
+  },
+  {
+    "nr": 76,
+    "urzadzenie_przed": "izolator HPAPI-07",
+    "zmiany": {
+      "lokalizacja": "budynek C, poziom 2, pomieszczenie produkcyjne 2.09",
+      "objaw": "Śluza materiałowa nie otwiera się od strony izolatora.",
+      "dzialanie_natychmiastowe": "Wstrzymałem załadunek.",
+      "przyczyna": "Zacięty mechanizm zamka śluzy.",
+      "dzialanie_naprawcze": "Naprawiono i nasmarowano mechanizm."
+    }
+  },
+  {
+    "nr": 77,
+    "urzadzenie_przed": "izolator HPAPI-08",
+    "zmiany": {
+      "lokalizacja": "budynek A, poziom 3, pomieszczenie produkcyjne 3.05",
+      "objaw": "Test szczelności komory nie przechodzi, spadek ciśnienia powyżej limitu.",
+      "priorytet": "wysoki",
+      "wplyw_na_bezpieczenstwo": "tak",
+      "dzialanie_natychmiastowe": "Sprawdziłem połączenia, przy drzwiach słychać syk.",
+      "przyczyna": "Zużyta uszczelka drzwi.",
+      "dzialanie_naprawcze": "Wymieniono uszczelkę, powtórzono test."
+    }
+  },
+  {
+    "nr": 78,
+    "urzadzenie_przed": "izolator HPAPI-09",
+    "zmiany": {
+      "lokalizacja": "budynek C, poziom 1, pomieszczenie produkcyjne 1.08",
+      "objaw": "Przepływ powietrza w komorze jest niższy niż nastawa.",
+      "priorytet": "średni",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem wentylator, pracuje na maksimum.",
+      "przyczyna": "Zabrudzony filtr nawiewny HEPA.",
+      "dzialanie_naprawcze": "Wymieniono filtr, sprawdzono przepływ."
+    }
+  },
+  {
+    "nr": 79,
+    "urzadzenie_przed": "izolator HPAPI-10",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 1, pomieszczenie produkcyjne 1.15",
+      "objaw": "Manometr na komorze pokazuje inne ciśnienie niż panel.",
+      "kod_alarmu": "A127",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem wężyk impulsowy, jest luźny na króćcu.",
+      "przyczyna": "Nieszczelny wężyk impulsowy manometru.",
+      "dzialanie_naprawcze": "Wymieniono wężyk, sprawdzono wskazania."
+    }
+  },
+  {
+    "nr": 80,
+    "urzadzenie_przed": "izolator HPAPI-11",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 2, pomieszczenie produkcyjne 2.01",
+      "objaw": "Na zewnątrz izolatora przy porcie RTP widać pył produktu.",
+      "dzialanie_natychmiastowe": "Ewakuowano pomieszczenie i wezwano zespół BHP.",
+      "przyczyna": "Uszkodzona uszczelka portu RTP.",
+      "dzialanie_naprawcze": "Wymieniono uszczelkę, przeprowadzono dekontaminację i wymazy kontrolne."
+    }
+  },
+  {
+    "nr": 81,
+    "urzadzenie_przed": "izolator HPAPI-12",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 1, pomieszczenie produkcyjne 1.02",
+      "objaw": "Po myciu WIP woda zostaje na dnie komory.",
+      "kod_alarmu": "F038",
+      "dzialanie_natychmiastowe": "Odłączyłem mycie i sprawdziłem odpływ.",
+      "przyczyna": "Odpływ zatkany pozostałościami produktu.",
+      "dzialanie_naprawcze": "Wyczyszczono odpływ, dodano płukanie wstępne."
+    }
+  },
+  {
+    "nr": 82,
+    "urzadzenie_przed": "izolator HPAPI-13",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 2, pomieszczenie produkcyjne 2.03",
+      "objaw": "Alarm braku przepływu na wyciągu, podciśnienie spada.",
+      "kod_alarmu": "AL-31",
+      "wplyw_na_bezpieczenstwo": "tak",
+      "dzialanie_natychmiastowe": "Zamknięto izolator i wstrzymano pracę.",
+      "przyczyna": "Awaria wentylatora wyciągowego.",
+      "dzialanie_naprawcze": "Wymieniono wentylator, sprawdzono podciśnienie."
+    }
+  },
+  {
+    "nr": 83,
+    "urzadzenie_przed": "izolator HPAPI-14",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 1, pomieszczenie produkcyjne 1.06",
+      "objaw": "Woda z mycia cieknie na zewnątrz przy przyłączu.",
+      "wplyw_na_bezpieczenstwo": "możliwy",
+      "dzialanie_natychmiastowe": "Odciąłem wodę i zabezpieczyłem miejsce.",
+      "przyczyna": "Pęknięty wąż doprowadzający.",
+      "dzialanie_naprawcze": "Wymieniono wąż, sprawdzono szczelność."
+    }
+  },
+  {
+    "nr": 84,
+    "urzadzenie_przed": "izolator HPAPI-15",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 1, pomieszczenie produkcyjne 1.11",
+      "objaw": "Czujnik zamknięcia drzwi nie daje sygnału, proces nie startuje.",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem drzwi, są domknięte.",
+      "przyczyna": "Uszkodzony czujnik krańcowy drzwi.",
+      "dzialanie_naprawcze": "Wymieniono czujnik, sprawdzono blokady."
+    }
+  },
+  {
+    "nr": 85,
+    "urzadzenie_przed": "izolator HPAPI-16",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 2, pomieszczenie produkcyjne 2.04",
+      "objaw": "Panel pokazuje za wysoką temperaturę w komorze, ręczny pomiar jest w normie.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Zgłosiłem przełożonemu.",
+      "przyczyna": "Uszkodzony czujnik temperatury.",
+      "dzialanie_naprawcze": "Wymieniono i skalibrowano czujnik."
+    }
+  },
+  {
+    "nr": 86,
+    "urzadzenie_przed": "izolator HPAPI-17",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 1, pomieszczenie produkcyjne 1.07",
+      "objaw": "Przepływ w komorze pulsuje, wentylator zmienia obroty.",
+      "dzialanie_natychmiastowe": "Sprawdziłem nastawy wentylatorów.",
+      "przyczyna": "Rozregulowany regulator przepływu po wymianie filtra.",
+      "dzialanie_naprawcze": "Dostrojono regulator."
+    }
+  },
+  {
+    "nr": 87,
+    "urzadzenie_przed": "izolator HPAPI-18",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 1, pomieszczenie produkcyjne 1.09",
+      "objaw": "Na szybie izolatora są rysy, które utrudniają widoczność.",
+      "dzialanie_natychmiastowe": "Oznaczyłem do przeglądu.",
+      "przyczyna": "Czyszczenie niewłaściwym środkiem.",
+      "dzialanie_naprawcze": "Wymieniono szybę przy przeglądzie, poprawiono instrukcję czyszczenia."
+    }
+  },
+  {
+    "nr": 88,
+    "urzadzenie_przed": "izolator HPAPI-19",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 1, pomieszczenie produkcyjne 1.15",
+      "objaw": "Na rękawicy prawego portu widać pęknięcie przy mankiecie.",
+      "dzialanie_natychmiastowe": "Wstrzymano pracę i wymieniono rękawicę.",
+      "przyczyna": "Zużycie materiału rękawicy.",
+      "dzialanie_naprawcze": "Wymieniono rękawice na wszystkich portach, skrócono okres wymiany."
+    }
+  },
+  {
+    "nr": 89,
+    "urzadzenie_przed": "izolator HPAPI-20",
+    "zmiany": {
+      "lokalizacja": "budynek A, poziom 2, pomieszczenie produkcyjne 2.14",
+      "objaw": "Z okolic filtra wyciągowego słychać gwizd.",
+      "dzialanie_natychmiastowe": "Zmniejszono obciążenie i sprawdzono filtr.",
+      "przyczyna": "Źle osadzony filtr po wymianie.",
+      "dzialanie_naprawcze": "Poprawiono osadzenie, wykonano test szczelności."
+    }
+  },
+  {
+    "nr": 90,
+    "urzadzenie_przed": "izolator HPAPI-21",
+    "zmiany": {
+      "lokalizacja": "budynek C, poziom 1, pomieszczenie produkcyjne 1.12",
+      "objaw": "Izolator nie utrzymuje podciśnienia, alarm ciągły.",
+      "kod_alarmu": "F042",
+      "dzialanie_natychmiastowe": "Wstrzymano proces i zamknięto izolator.",
+      "przyczyna": "Uszkodzone uszczelki drzwi.",
+      "dzialanie_naprawcze": "Wymieniono uszczelki, wykonano test szczelności."
+    }
+  },
+  {
+    "nr": 91,
+    "urzadzenie_przed": "izolator HPAPI-22",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 3, pomieszczenie produkcyjne 3.01",
+      "objaw": "Dwa czujniki ciśnienia w komorze pokazują różne wartości.",
+      "dzialanie_natychmiastowe": "Sprawdziłem kalibrację.",
+      "przyczyna": "Uszkodzona karta wejść analogowych.",
+      "dzialanie_naprawcze": "Wymieniono kartę, skalibrowano tory pomiarowe."
+    }
+  },
+  {
+    "nr": 92,
+    "urzadzenie_przed": "izolator HPAPI-23",
+    "zmiany": {
+      "lokalizacja": "budynek D, poziom 2, pomieszczenie produkcyjne 2.05",
+      "objaw": "Rękawica w śluzie nie przechodzi testu ciśnieniowego.",
+      "wplyw_na_bezpieczenstwo": "tak",
+      "dzialanie_natychmiastowe": "Wstrzymano pracę.",
+      "przyczyna": "Przecięcie rękawicy ostrym narzędziem.",
+      "dzialanie_naprawcze": "Wymieniono rękawicę, powtórzono test."
+    }
+  },
+  {
+    "nr": 93,
+    "urzadzenie_przed": "izolator HPAPI-24",
+    "zmiany": {
+      "lokalizacja": "budynek C, poziom 1, pomieszczenie produkcyjne 1.02",
+      "objaw": "Mycie WIP nie pobiera detergentu.",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem zbiornik, jest pełny.",
+      "przyczyna": "Zatarta pompa dozująca.",
+      "dzialanie_naprawcze": "Wymieniono pompę, sprawdzono dawkę."
+    }
+  },
+  {
+    "nr": 94,
+    "urzadzenie_przed": "izolator HPAPI-25",
+    "zmiany": {
+      "lokalizacja": "budynek B, poziom 1, pomieszczenie produkcyjne 1.01",
+      "objaw": "Test dymowy pokazuje wypływ powietrza z komory przy przepuście kablowym.",
+      "dzialanie_natychmiastowe": "Wstrzymano wszystkie procesy.",
+      "przyczyna": "Nieszczelny przepust kablowy.",
+      "dzialanie_naprawcze": "Uszczelniono przepust, wykonano test szczelności."
+    }
+  },
+  {
+    "nr": 95,
+    "urzadzenie_przed": "sterownik PLC-01",
+    "zmiany": {
+      "objaw": "Sterownik nie reaguje na sygnały z czujników ciśnienia, wartości na panelu stoją w miejscu.",
+      "kod_alarmu": "A141",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Zresetowałem sterownik, po kilku minutach problem wrócił.",
+      "przyczyna": "Uszkodzona karta wejść analogowych.",
+      "dzialanie_naprawcze": "Wymieniono kartę, sprawdzono wszystkie tory pomiarowe."
+    }
+  },
+  {
+    "nr": 96,
+    "urzadzenie_przed": "panel HMI-02",
+    "zmiany": {
+      "objaw": "Na panelu nie da się zmienić nastawy temperatury, dotyk nie reaguje w części ekranu.",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Zrestartowałem panel, bez skutku.",
+      "przyczyna": "Uszkodzona matryca dotykowa panelu.",
+      "dzialanie_naprawcze": "Wymieniono panel, wgrano kopię aplikacji."
+    }
+  },
+  {
+    "nr": 97,
+    "urzadzenie_przed": "system BMS-03",
+    "zmiany": {
+      "objaw": "BMS nie reaguje na wzrost temperatury w biurach, klimatyzacja się nie załącza.",
+      "priorytet": "średni",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Zgłosiłem kierownikowi, klimatyzację załączono ręcznie.",
+      "przyczyna": "Uszkodzony czujnik temperatury w strefie.",
+      "dzialanie_naprawcze": "Wymieniono czujnik, sprawdzono regulację."
+    }
+  },
+  {
+    "nr": 98,
+    "urzadzenie_przed": "czujnik wilgotności-01",
+    "zmiany": {
+      "urzadzenie": "czujnik wilgotności CW-01",
+      "lokalizacja": "budynek A, poziom 1, pomieszczenie produkcyjne 1.21",
+      "objaw": "Czujnik wilgotności w pomieszczeniu produkcyjnym pokazuje 15%, co jest niemożliwe.",
+      "wplyw_na_gmp": "tak",
+      "dzialanie_natychmiastowe": "Porównałem z miernikiem ręcznym, różnica ponad 20 punktów.",
+      "przyczyna": "Zabrudzony element pomiarowy czujnika.",
+      "dzialanie_naprawcze": "Wymieniono element, skalibrowano czujnik."
+    }
+  },
+  {
+    "nr": 99,
+    "urzadzenie_przed": "czujnik ciśnienia-04",
+    "zmiany": {
+      "urzadzenie": "czujnik ciśnienia CC-04",
+      "objaw": "Czujnik ciśnienia nie wysyła danych do systemu, brak zdalnego podglądu.",
+      "dzialanie_natychmiastowe": "Sprawdziłem połączenie na listwie, wygląda dobrze.",
+      "przyczyna": "Przerwany przewód sygnałowy w korycie.",
+      "dzialanie_naprawcze": "Wymieniono odcinek przewodu, sprawdzono sygnał."
+    }
+  },
+  {
+    "nr": 100,
+    "urzadzenie_przed": "siłownik zaworu-05",
+    "zmiany": {
+      "urzadzenie": "siłownik zaworu SZ-05",
+      "objaw": "Siłownik zaworu nie otwiera się, brak przepływu medium.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem zasilanie, jest, siłownik nie reaguje.",
+      "przyczyna": "Zablokowany mechanizm siłownika.",
+      "dzialanie_naprawcze": "Rozebrano i oczyszczono siłownik, sprawdzono zakres ruchu."
+    }
+  },
+  {
+    "nr": 101,
+    "urzadzenie_przed": "system EMS-06",
+    "zmiany": {
+      "objaw": "System monitoringu środowiska nie wysyła powiadomień o przekroczeniach, alarmy widać tylko na ekranie.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem konfigurację alarmów, wygląda poprawnie.",
+      "przyczyna": "Błędna konfiguracja serwera poczty po zmianie hasła konta.",
+      "dzialanie_naprawcze": "Poprawiono konfigurację, wykonano test powiadomień."
+    }
+  },
+  {
+    "nr": 102,
+    "urzadzenie_przed": "zasilacz 24V-02",
+    "zmiany": {
+      "urzadzenie": "zasilacz 24V ZS-02",
+      "objaw": "Zasilacz 24 V przestał podawać napięcie, część czujników i zaworów w szafie nie działa.",
+      "priorytet": "wysoki",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem pozostałe zasilacze, działają.",
+      "przyczyna": "Uszkodzenie wewnętrzne zasilacza.",
+      "dzialanie_naprawcze": "Wymieniono zasilacz, sprawdzono obciążenie obwodu."
+    }
+  },
+  {
+    "nr": 103,
+    "urzadzenie_przed": "sterownik PLC-02",
+    "zmiany": {
+      "objaw": "Sterownik generuje fałszywe alarmy stanu urządzeń.",
+      "dzialanie_natychmiastowe": "Zrestartowałem, alarmy wróciły.",
+      "przyczyna": "Błąd w logice nadzoru po ostatniej zmianie programu.",
+      "dzialanie_naprawcze": "Poprawiono program, wykonano testy i udokumentowano zmianę."
+    }
+  },
+  {
+    "nr": 104,
+    "urzadzenie_przed": "panel HMI-01",
+    "zmiany": {
+      "objaw": "Panel zawiesza się przy otwieraniu trendów historycznych.",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Zrestartowałem panel, problem wraca.",
+      "przyczyna": "Zapełniona pamięć danych historycznych panelu.",
+      "dzialanie_naprawcze": "Zarchiwizowano dane, ustawiono automatyczną archiwizację."
+    }
+  },
+  {
+    "nr": 105,
+    "urzadzenie_przed": "sterownik PLC-03",
+    "zmiany": {
+      "objaw": "Sterownik nie przyjmuje poleceń ze stacji operatorskiej.",
+      "dzialanie_natychmiastowe": "Zrestartowałem, bez zmian.",
+      "przyczyna": "Uszkodzony moduł komunikacyjny sterownika.",
+      "dzialanie_naprawcze": "Wymieniono moduł, sprawdzono komunikację."
+    }
+  },
+  {
+    "nr": 106,
+    "urzadzenie_przed": "czujnik temperatury-02",
+    "zmiany": {
+      "urzadzenie": "czujnik temperatury CT-02",
+      "lokalizacja": "budynek A, poziom 1, pomieszczenie czyste 1.05",
+      "objaw": "Czujnik temperatury w pomieszczeniu czystym nie wysyła wartości, regulacja temperatury nie działa.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem połączenia, czujnik nie odpowiada.",
+      "przyczyna": "Czujnik uszkodzony mechanicznie podczas prac konserwacyjnych.",
+      "dzialanie_naprawcze": "Wymieniono i skalibrowano czujnik."
+    }
+  },
+  {
+    "nr": 107,
+    "urzadzenie_przed": "siłownik zaworu-03",
+    "zmiany": {
+      "urzadzenie": "siłownik zaworu SZ-03",
+      "objaw": "Siłownik nie reaguje na sygnał ze sterownika, nie da się regulować przepływu.",
+      "dzialanie_natychmiastowe": "Sprawdziłem zasilanie, jest w porządku.",
+      "przyczyna": "Zatarta przekładnia siłownika.",
+      "dzialanie_naprawcze": "Wymieniono siłownik."
+    }
+  },
+  {
+    "nr": 108,
+    "urzadzenie_przed": "panel HMI-03",
+    "zmiany": {
+      "objaw": "Panel nie odświeża wartości bieżących, pokazuje stare dane.",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Zresetowałem panel, bez rezultatu.",
+      "przyczyna": "Zawieszona usługa komunikacji po aktualizacji.",
+      "dzialanie_naprawcze": "Przeinstalowano oprogramowanie panelu, wykonano testy."
+    }
+  },
+  {
+    "nr": 109,
+    "urzadzenie_przed": "system BMS-04",
+    "zmiany": {
+      "objaw": "BMS nie przyjmuje zmian nastaw klimatyzacji, temperatura w pomieszczeniach rośnie.",
+      "priorytet": "wysoki",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Zrestartowałem stację, bez poprawy.",
+      "przyczyna": "Awaria dysku serwera BMS.",
+      "dzialanie_naprawcze": "Wymieniono dysk, odtworzono system z kopii zapasowej."
+    }
+  },
+  {
+    "nr": 110,
+    "urzadzenie_przed": "czujnik wilgotności-02",
+    "zmiany": {
+      "urzadzenie": "czujnik wilgotności CW-02",
+      "objaw": "Czujnik wilgotności pokazuje niestabilne wartości.",
+      "dzialanie_natychmiastowe": "Sprawdziłem połączenia, są w porządku.",
+      "przyczyna": "Czujnik po terminie kalibracji, dryft wskazań.",
+      "dzialanie_naprawcze": "Skalibrowano czujnik."
+    }
+  },
+  {
+    "nr": 111,
+    "urzadzenie_przed": "zasilacz 24V-01",
+    "zmiany": {
+      "urzadzenie": "zasilacz 24V ZS-01",
+      "lokalizacja": "budynek B, poziom 3, rozdzielnia 3.05",
+      "objaw": "Brak napięcia na wyjściu zasilacza, kilka urządzeń w szafie nie działa.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Zmierzyłem wyjście, 0 V.",
+      "przyczyna": "Uszkodzony zasilacz.",
+      "dzialanie_naprawcze": "Wymieniono zasilacz, dodano zasilacz rezerwowy."
+    }
+  },
+  {
+    "nr": 112,
+    "urzadzenie_przed": "system EMS-07",
+    "zmiany": {
+      "objaw": "System monitoringu nie rejestruje danych z czujników w strefie czystej, luka w zapisie.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Stwierdziłem brak komunikacji z czujnikami, powiadomiono dział jakości.",
+      "przyczyna": "Awaria przełącznika sieciowego obsługującego czujniki.",
+      "dzialanie_naprawcze": "Wymieniono przełącznik, uzupełniono dane z pamięci czujników."
+    }
+  },
+  {
+    "nr": 113,
+    "urzadzenie_przed": "sterownik PLC-04",
+    "zmiany": {
+      "objaw": "Po aktualizacji sterownik przestał odpowiadać, instalacja stoi.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Zrestartowałem, nie pomogło.",
+      "przyczyna": "Błąd podczas wgrywania nowej wersji programu.",
+      "dzialanie_naprawcze": "Przywrócono poprzednią wersję, aktualizację powtórzono po testach."
+    }
+  },
+  {
+    "nr": 114,
+    "urzadzenie_przed": "czujnik ciśnienia-05",
+    "zmiany": {
+      "urzadzenie": "czujnik ciśnienia CC-05",
+      "objaw": "Czujnik ciśnienia nie przesyła danych.",
+      "dzialanie_natychmiastowe": "Obejrzałem okablowanie, przewód przy dławiku jest przetarty.",
+      "przyczyna": "Złamany przewód sygnałowy.",
+      "dzialanie_naprawcze": "Wymieniono przewód, sprawdzono działanie."
+    }
+  },
+  {
+    "nr": 115,
+    "urzadzenie_przed": "sterownik PLC-05",
+    "zmiany": {
+      "objaw": "Sterownik nie widzi czujników temperatury, klimatyzacja pracuje na wartościach zastępczych.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem okablowanie, bez zmian.",
+      "przyczyna": "Uszkodzony moduł komunikacyjny sterownika.",
+      "dzialanie_naprawcze": "Wymieniono moduł, przywrócono komunikację."
+    }
+  },
+  {
+    "nr": 116,
+    "urzadzenie_przed": "panel HMI-04",
+    "zmiany": {
+      "objaw": "Panel zawiesza się przy uruchamianiu aplikacji monitoringu.",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Zrestartowałem, bez rezultatu.",
+      "przyczyna": "Uszkodzona karta pamięci panelu.",
+      "dzialanie_naprawcze": "Wymieniono kartę, odtworzono aplikację."
+    }
+  },
+  {
+    "nr": 117,
+    "urzadzenie_przed": "czujnik temperatury-03",
+    "zmiany": {
+      "urzadzenie": "czujnik temperatury CT-03",
+      "objaw": "Czujnik pokazuje temperaturę o 10 stopni wyższą niż rzeczywista.",
+      "priorytet": "średni",
+      "dzialanie_natychmiastowe": "Porównałem z termometrem wzorcowym.",
+      "przyczyna": "Dryft czujnika, kalibracja po terminie.",
+      "dzialanie_naprawcze": "Skalibrowano czujnik, oceniono wpływ na zapisane dane."
+    }
+  },
+  {
+    "nr": 118,
+    "urzadzenie_przed": "system EMS-08",
+    "zmiany": {
+      "objaw": "System monitoringu nie rejestruje różnicy ciśnień w dwóch pomieszczeniach.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem system, brak danych z dwóch czujników.",
+      "przyczyna": "Uszkodzony konwerter sygnału.",
+      "dzialanie_naprawcze": "Wymieniono konwerter, sprawdzono zapis danych."
+    }
+  },
+  {
+    "nr": 119,
+    "urzadzenie_przed": "siłownik zaworu-06",
+    "zmiany": {
+      "urzadzenie": "siłownik zaworu SZ-06",
+      "lokalizacja": "budynek A, poziom 1, pomieszczenie techniczne 1.05",
+      "objaw": "Siłownik nie reaguje na polecenia z panelu.",
+      "dzialanie_natychmiastowe": "Sprawdziłem zasilanie, jest.",
+      "przyczyna": "Mechanizm zablokowany osadem.",
+      "dzialanie_naprawcze": "Oczyszczono mechanizm, przywrócono działanie."
+    }
+  },
+  {
+    "nr": 120,
+    "urzadzenie_przed": "sprężarka bezolejowa 1",
+    "zmiany": {
+      "urzadzenie": "sprężarka bezolejowa nr 1",
+      "objaw": "Sprężarka nie startuje, czerwona kontrolka alarmu.",
+      "kod_alarmu": "A152",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem zasilanie i połączenia. Pracuje sprężarka rezerwowa.",
+      "przyczyna": "Uszkodzony przekaźnik w obwodzie sterowania.",
+      "dzialanie_naprawcze": "Wymieniono przekaźnik, uruchomiono sprężarkę."
+    }
+  },
+  {
+    "nr": 121,
+    "urzadzenie_przed": "osuszacz 2",
+    "zmiany": {
+      "urzadzenie": "osuszacz nr 2",
+      "objaw": "Punkt rosy za osuszaczem wzrósł do plus 8 stopni, alarm.",
+      "priorytet": "wysoki",
+      "wplyw_na_gmp": "tak",
+      "dzialanie_natychmiastowe": "Sprawdziłem osuszacz, nie przełącza kolumn.",
+      "przyczyna": "Uszkodzony zawór przełączający kolumny.",
+      "dzialanie_naprawcze": "Wymieniono zawór, punkt rosy wrócił do normy."
+    }
+  },
+  {
+    "nr": 122,
+    "urzadzenie_przed": "zbiornik buforowy 3",
+    "zmiany": {
+      "urzadzenie": "zbiornik buforowy nr 3",
+      "lokalizacja": "budynek A, poziom 0, sprężarkownia 0.04",
+      "objaw": "Przy zbiorniku słychać syk, ciśnienie spada szybciej niż zwykle.",
+      "priorytet": "średni",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Znalazłem nieszczelność na króćcu manometru.",
+      "przyczyna": "Uszkodzona uszczelka na króćcu.",
+      "dzialanie_naprawcze": "Wymieniono uszczelkę, wykonano próbę szczelności."
+    }
+  },
+  {
+    "nr": 123,
+    "urzadzenie_przed": "redutor 4",
+    "zmiany": {
+      "urzadzenie": "reduktor nr 4",
+      "objaw": "Ciśnienie za reduktorem jest dużo niższe od nominalnego.",
+      "kod_alarmu": "AL-44",
+      "priorytet": "średni",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Odciąłem odbiór i sprawdziłem reduktor.",
+      "przyczyna": "Zapchany filtr siatkowy przed reduktorem.",
+      "dzialanie_naprawcze": "Wyczyszczono filtr, ustawiono ciśnienie."
+    }
+  },
+  {
+    "nr": 124,
+    "urzadzenie_przed": "zawór bezpieczeństwa 5",
+    "zmiany": {
+      "urzadzenie": "zawór bezpieczeństwa nr 5",
+      "objaw": "Przy okresowej próbie zawór bezpieczeństwa nie otworzył się przy ciśnieniu nastawy.",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Wyłączono instalację z użycia do czasu wymiany.",
+      "przyczyna": "Zapieczony grzybek zaworu.",
+      "dzialanie_naprawcze": "Wymieniono zawór na nowy z aktualnym świadectwem."
+    }
+  },
+  {
+    "nr": 125,
+    "urzadzenie_przed": "filtr końcowy 6",
+    "zmiany": {
+      "urzadzenie": "filtr końcowy nr 6",
+      "objaw": "Wkład filtra końcowego przy punkcie poboru jest przebarwiony na brązowo.",
+      "priorytet": "średni",
+      "wplyw_na_gmp": "tak",
+      "dzialanie_natychmiastowe": "Sprawdziłem spadek ciśnienia na filtrze i obejrzałem wkład.",
+      "przyczyna": "Wkład po terminie wymiany.",
+      "dzialanie_naprawcze": "Wymieniono wkład, dodano filtr do harmonogramu."
+    }
+  },
+  {
+    "nr": 126,
+    "urzadzenie_przed": "sprężarka olejowa 7",
+    "zmiany": {
+      "urzadzenie": "sprężarka bezolejowa nr 7",
+      "objaw": "Sprężarka podczas pracy metalicznie stuka.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Zatrzymałem sprężarkę i przełączyłem na rezerwową.",
+      "przyczyna": "Zużyte łożyska stopnia sprężającego.",
+      "dzialanie_naprawcze": "Serwis wymienił łożyska."
+    }
+  },
+  {
+    "nr": 127,
+    "urzadzenie_przed": "instalacja azotu 8",
+    "zmiany": {
+      "urzadzenie": "wytwornica azotu nr 8",
+      "objaw": "Wytwornica nie osiąga wymaganej czystości azotu, analizator tlenu alarmuje.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem zawory i ciśnienie zasilania.",
+      "przyczyna": "Zużyte złoże adsorbera.",
+      "dzialanie_naprawcze": "Wymieniono złoże, sprawdzono czystość."
+    }
+  },
+  {
+    "nr": 128,
+    "urzadzenie_przed": "spadek ciśnienia w sieci 9",
+    "zmiany": {
+      "urzadzenie": "sieć sprężonego powietrza, odcinek nr 9",
+      "lokalizacja": "budynek B, poziom 1, pomieszczenie techniczne 1.07",
+      "objaw": "W dalszej części sieci ciśnienie za niskie, część siłowników działa wolno.",
+      "dzialanie_natychmiastowe": "Zmierzyłem ciśnienie w kilku punktach, spadek za jednym z zaworów.",
+      "przyczyna": "Częściowo zamknięty zawór odcinający po pracach serwisowych.",
+      "dzialanie_naprawcze": "Otworzono i oznaczono zawór."
+    }
+  },
+  {
+    "nr": 129,
+    "urzadzenie_przed": "sprężarka bezolejowa 2",
+    "zmiany": {
+      "urzadzenie": "sprężarka bezolejowa nr 2",
+      "objaw": "Sprężarka buczy, ale nie startuje, pomarańczowa kontrolka.",
+      "dzialanie_natychmiastowe": "Sprawdziłem zasilanie, brak jednej fazy.",
+      "przyczyna": "Przepalony bezpiecznik jednej fazy.",
+      "dzialanie_naprawcze": "Wymieniono bezpiecznik, sprawdzono silnik."
+    }
+  },
+  {
+    "nr": 130,
+    "urzadzenie_przed": "osuszacz 1",
+    "zmiany": {
+      "urzadzenie": "osuszacz nr 1",
+      "objaw": "Osuszacz nie odprowadza kondensatu, woda zbiera się w separatorze.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "dzialanie_natychmiastowe": "Zamknąłem dopływ i spuściłem wodę ręcznie.",
+      "przyczyna": "Zatkany automatyczny spust kondensatu.",
+      "dzialanie_naprawcze": "Wyczyszczono i sprawdzono spust."
+    }
+  },
+  {
+    "nr": 131,
+    "urzadzenie_przed": "filtr końcowy 3",
+    "zmiany": {
+      "urzadzenie": "filtr końcowy nr 3",
+      "objaw": "Na filtrze końcowym widać ślady oleju.",
+      "priorytet": "wysoki",
+      "wplyw_na_gmp": "tak",
+      "dzialanie_natychmiastowe": "Oznaczyłem miejsce, pobrano próbkę powietrza.",
+      "przyczyna": "Olej z uszkodzonej przekładni sprężarki przedostał się do sieci.",
+      "dzialanie_naprawcze": "Naprawiono sprężarkę, wymieniono filtry, przedmuchano odcinek sieci."
+    }
+  },
+  {
+    "nr": 132,
+    "urzadzenie_przed": "zbiornik buforowy 4",
+    "zmiany": {
+      "urzadzenie": "zbiornik buforowy nr 4",
+      "lokalizacja": "budynek D, poziom 0, sprężarkownia 0.15",
+      "objaw": "Zbiornik buforowy drga, słychać przelewanie się wody.",
+      "priorytet": "średni",
+      "dzialanie_natychmiastowe": "Zatrzymałem instalację i sprawdziłem spust.",
+      "przyczyna": "Niesprawny spust, w zbiorniku nagromadził się kondensat.",
+      "dzialanie_naprawcze": "Opróżniono zbiornik, wymieniono spust."
+    }
+  },
+  {
+    "nr": 133,
+    "urzadzenie_przed": "reduktor 5",
+    "zmiany": {
+      "urzadzenie": "reduktor nr 5",
+      "lokalizacja": "budynek A, poziom 2, pomieszczenie techniczne 2.01",
+      "objaw": "Ciśnienie za reduktorem skacze.",
+      "priorytet": "średni",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem nastawy i połączenia.",
+      "przyczyna": "Uszkodzona membrana reduktora.",
+      "dzialanie_naprawcze": "Wymieniono reduktor."
+    }
+  },
+  {
+    "nr": 134,
+    "urzadzenie_przed": "zawór bezpieczeństwa 6",
+    "zmiany": {
+      "urzadzenie": "zawór bezpieczeństwa nr 6",
+      "lokalizacja": "budynek B, poziom 3, pomieszczenie techniczne 3.08",
+      "objaw": "Ciśnienie w zbiorniku przekroczyło nastawę, a zawór bezpieczeństwa nie zadziałał.",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Odstawiłem sprężarki i ręcznie obniżyłem ciśnienie.",
+      "przyczyna": "Skorodowany mechanizm zaworu.",
+      "dzialanie_naprawcze": "Wymieniono zawór, sprawdzono presostaty sprężarek."
+    }
+  },
+  {
+    "nr": 135,
+    "urzadzenie_przed": "rozdzielnica R-02",
+    "zmiany": {
+      "objaw": "Jeden z aparatów w rozdzielnicy grzeje się, kamera pokazuje gorący punkt.",
+      "kod_alarmu": "A107",
+      "wplyw_na_bezpieczenstwo": "możliwy",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Odciążyłem obwód i oznaczyłem miejsce.",
+      "przyczyna": "Poluzowany zacisk na torze prądowym.",
+      "dzialanie_naprawcze": "Dokręcono zaciski, wykonano pomiar kamerą termowizyjną."
+    }
+  },
+  {
+    "nr": 136,
+    "urzadzenie_przed": "UPS-01",
+    "zmiany": {
+      "objaw": "UPS zgłasza błąd ładowania baterii.",
+      "kod_alarmu": "F0035",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem złącza baterii, jedno jest luźne i nadpalone.",
+      "przyczyna": "Uszkodzone złącze baterii.",
+      "dzialanie_naprawcze": "Wymieniono złącze, wykonano test obciążeniowy."
+    }
+  },
+  {
+    "nr": 137,
+    "urzadzenie_przed": "falownik FV-03",
+    "zmiany": {
+      "objaw": "Falownik pompy wyłączył się z błędem i nie daje się skasować.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem nastawy i połączenia, brak napięcia na wyjściu.",
+      "przyczyna": "Uszkodzony moduł mocy falownika.",
+      "dzialanie_naprawcze": "Wymieniono falownik, wgrano parametry."
+    }
+  },
+  {
+    "nr": 138,
+    "urzadzenie_przed": "agregat prądotwórczy AG-07",
+    "zmiany": {
+      "objaw": "Przy próbie agregat nie wystartował automatycznie po zaniku napięcia.",
+      "priorytet": "wysoki",
+      "dzialanie_natychmiastowe": "Sprawdziłem akumulator i paliwo, w normie. Agregat uruchomiono ręcznie.",
+      "przyczyna": "Uszkodzony przekaźnik w automatyce SZR.",
+      "dzialanie_naprawcze": "Wymieniono przekaźnik, wykonano próbę SZR."
+    }
+  },
+  {
+    "nr": 139,
+    "urzadzenie_przed": "wyłącznik automatyczny WA-04",
+    "zmiany": {
+      "objaw": "Wyłącznik co kilka dni rozłącza obwód w pomieszczeniu technicznym.",
+      "dzialanie_natychmiastowe": "Zmierzyłem prąd obwodu, blisko wartości znamionowej.",
+      "przyczyna": "Wyłącznik dobrany zbyt blisko obciążenia obwodu.",
+      "dzialanie_naprawcze": "Wymieniono wyłącznik na właściwy po sprawdzeniu przekroju przewodów."
+    }
+  },
+  {
+    "nr": 140,
+    "urzadzenie_przed": "kompensator mocy FC-05",
+    "zmiany": {
+      "urzadzenie": "kompensator mocy biernej FC-05",
+      "objaw": "Kompensator nie załącza stopni, rośnie moc bierna.",
+      "kod_alarmu": "AL-17",
+      "priorytet": "niski",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Zmierzyłem moc bierną, regulator nie pracuje.",
+      "przyczyna": "Uszkodzony regulator mocy biernej.",
+      "dzialanie_naprawcze": "Wymieniono regulator."
+    }
+  },
+  {
+    "nr": 141,
+    "urzadzenie_przed": "nagromadzenie UPS-02",
+    "zmiany": {
+      "urzadzenie": "UPS-02",
+      "objaw": "Po zaniku napięcia UPS nie podtrzymał zasilania nawet przez chwilę.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem baterie, napięcie bardzo niskie.",
+      "przyczyna": "Zużyte baterie.",
+      "dzialanie_naprawcze": "Wymieniono baterie, wykonano test podtrzymania."
+    }
+  },
+  {
+    "nr": 142,
+    "urzadzenie_przed": "rozdzielnica R-05",
+    "zmiany": {
+      "objaw": "Przeciążenie w rozdzielnicy, wyłączyło się kilka obwodów biurowych.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem obciążenie, na jednym obwodzie za dużo odbiorników.",
+      "przyczyna": "Zbyt wiele urządzeń na jednym obwodzie.",
+      "dzialanie_naprawcze": "Rozdzielono obciążenie na dwa obwody."
+    }
+  },
+  {
+    "nr": 143,
+    "urzadzenie_przed": "wyłącznik AW-09",
+    "zmiany": {
+      "urzadzenie": "wyłącznik WA-09",
+      "objaw": "Wyłącznik nie daje się załączyć, urządzenia w pomieszczeniu bez zasilania.",
+      "priorytet": "średni",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem obwód, zwarcia nie ma.",
+      "przyczyna": "Uszkodzony mechanizm wyłącznika.",
+      "dzialanie_naprawcze": "Wymieniono wyłącznik."
+    }
+  },
+  {
+    "nr": 144,
+    "urzadzenie_przed": "rozdzielnica R-03",
+    "zmiany": {
+      "objaw": "Na kilku obwodach napięcie się waha, urządzenia się resetują.",
+      "kod_alarmu": "AL-16",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Zmierzyłem napięcia.",
+      "przyczyna": "Luźne połączenie na szynie zerowej.",
+      "dzialanie_naprawcze": "Dokręcono połączenia, wykonano pomiary."
+    }
+  },
+  {
+    "nr": 145,
+    "urzadzenie_przed": "UPS-03",
+    "zmiany": {
+      "objaw": "UPS w serwerowni pracuje na obejściu i nie przechodzi na baterie.",
+      "kod_alarmu": "F0052",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Sprawdziłem baterie i okablowanie.",
+      "przyczyna": "Uszkodzony obwód ładowania, baterie całkowicie rozładowane.",
+      "dzialanie_naprawcze": "Naprawiono obwód ładowania, wymieniono baterie."
+    }
+  },
+  {
+    "nr": 146,
+    "urzadzenie_przed": "agregat prądotwórczy AG-08",
+    "zmiany": {
+      "objaw": "Po zaniku zasilania agregat nie wystartował, część urządzeń została bez prądu.",
+      "wplyw_na_bezpieczenstwo": "możliwy",
+      "dzialanie_natychmiastowe": "Próbowałem uruchomić ręcznie, bez skutku.",
+      "przyczyna": "Uszkodzona pompa paliwa.",
+      "dzialanie_naprawcze": "Wymieniono pompę, wykonano próbę pod obciążeniem."
+    }
+  },
+  {
+    "nr": 147,
+    "urzadzenie_przed": "wyłącznik automatyczny WA-05",
+    "zmiany": {
+      "objaw": "Wyłącznik rozłącza przy rozruchu dużego silnika.",
+      "wplyw_na_bezpieczenstwo": "brak",
+      "wplyw_na_gmp": "możliwy",
+      "dzialanie_natychmiastowe": "Obserwowałem prąd rozruchu.",
+      "przyczyna": "Niewłaściwa charakterystyka wyłącznika dla silnika.",
+      "dzialanie_naprawcze": "Wymieniono wyłącznik na właściwą charakterystykę."
+    }
+  },
+  {
+    "nr": 148,
+    "urzadzenie_przed": "falownik FV-04",
+    "zmiany": {
+      "lokalizacja": "budynek A, poziom 2, pomieszczenie techniczne 2.11",
+      "objaw": "Falownik wentylatora zgłasza błąd po aktualizacji.",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Sprawdziłem komunikację.",
+      "przyczyna": "Niezgodna wersja oprogramowania.",
+      "dzialanie_naprawcze": "Przywrócono poprzednią wersję."
+    }
+  },
+  {
+    "nr": 149,
+    "urzadzenie_przed": "kompensator mocy FC-06",
+    "zmiany": {
+      "urzadzenie": "kompensator mocy biernej FC-06",
+      "lokalizacja": "budynek B, poziom 1, pomieszczenie techniczne 1.05",
+      "objaw": "Kompensator nie załącza się automatycznie.",
+      "priorytet": "niski",
+      "wplyw_na_gmp": "brak",
+      "dzialanie_natychmiastowe": "Zmierzyłem parametry sieci.",
+      "przyczyna": "Zacięty stycznik stopnia.",
+      "dzialanie_naprawcze": "Wymieniono stycznik."
+    }
+  }
+]
